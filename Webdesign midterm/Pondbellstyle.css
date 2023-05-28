@@ -1,0 +1,182 @@
+
+/* in this style sheet I was able to change the positioning of the navigation bar. I was also able to change the color of the background and the body as well as the footer and header. 
+The fonts were also changed for stylistic purposes*/
+
+
+
+h1 {
+    /* using an rgb element to change the color of this text*/
+    color:rgb(56, 62, 90);
+    font-family:"Dancing Script",Georgia, serif;
+    font-size: 12em;
+    text-align: center;
+    height: -15em;
+    text-shadow: black 6px 0 10px;
+    font-style: italic;
+    margin-bottom: -0.5rem;
+}
+
+
+
+h2{
+    color:rgb(215, 218, 229);
+    font-size: 2em;
+    text-align: center;
+    font-family: "Libre Baskerville";
+}
+
+p{
+    font-size: large;
+    font-family: "Crimson Text";
+    margin-left: 100px;
+    text-align: center;
+}
+
+h3{
+    font-family: "Crimson Text", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+h4{
+    color:#051014;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Libre Baskerville";
+}
+
+h5{
+    color:#051014;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: "Libre Baskerville";
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%
+}
+
+footer{
+    background-color: rgb(215, 218, 229);
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.3rem;
+
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: .2em ;
+}
+
+header{
+    margin-top: 0;
+    padding: 5em;
+    text-align: center;
+    background-image: url(Photos/mountain-bottom.png);
+    background-repeat: round;
+    background-color: rgb(56, 62, 90);
+
+}
+
+.sub text{
+    font-weight: bolder;
+    font-variant: normal;
+    font-style: normal;
+}
+body{
+    /* using hexadecimal to change the color of this text*/
+    background-color:#5E747F;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/*Changing link behavior*/
+main a{
+    color:rgb(215, 218, 229);
+}
+
+main a:hover, main a:focus{
+    /* using rgba to change the color of this element*/
+    color: rgba(146, 20, 12, 1)
+}
+
+header a:active, footer a:active{
+    color:crimson;
+}
+header a{
+    color: rgb(215, 218, 229);
+}
+
+header a:hover, header a:focus{
+    color: rgba(146, 20, 12, 1);
+}
+
+main a:active, main a:active{
+    color: crimson;
+}
+.contact info{
+    color:#2597c0;
+    font-size: 2em;
+    text-align: center;
+    font-family: "Libre Baskerville";  
+}
+
+nav ul li a{
+    padding: 1rem;
+    background-color: #6E757D;
+    text-align: center;
+    text-decoration: none;
+    border: rgb(56, 62, 90) 1.5px solid;
+    border-radius: 5em;
+    float: right;
+    margin: auto;
+    
+}
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+
+
+p a{
+    color:rgb(215, 218, 229);
+}
+
+p a:hover, p a:focus{
+    color: rgba(146, 20, 12, 1)
+}
+
+p a:active, p a:active{
+    color: crimson;
+}
+
+/* This allows the images to be more seamless*/
+.image{
+    display: grid;
+}
+
+.stat{
+    color:rgb(215, 218, 229)    
+}
+
+.movie{
+    color:rgb(215, 218, 229)
+}
+
+.sub title{
+    font-weight: bolder;
+    font-variant: normal;
+    font-style: normal;
+    position: absolute;
+    font-family: "Crimson Text";
+
+}
